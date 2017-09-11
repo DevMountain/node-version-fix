@@ -10,7 +10,7 @@ If you are using a Windows machine, download [git-bash](https://git-scm.com/down
 If you have already installed the latest version of Node at [nodejs.org](https://www.nodejs.org), then go ahead and skip to step two. If not, download the latest stable release of Node.
 
 ## Step 2
-Crack open your terminal. Don't worry about the location, you can update Node from your home/root directory. Just like NPM, Node also has a version manager, meet NPM's cousin, NVM. Type/copy & paste this into your terminal:
+Crack open your terminal or git-bash. Don't worry about the location, you can update Node from your home/root directory. Just like NPM, Node also has a version manager, meet NPM's cousin, NVM. Type/copy & paste this into your terminal:
 ```
 curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.4/install.sh | bash
 ```
