@@ -10,14 +10,14 @@ If you are using a Windows machine, download [git-bash](https://git-scm.com/down
 If you have already installed the latest version of Node at [nodejs.org](https://www.nodejs.org), then go ahead and skip to step two. If not, download the latest stable release of Node.
 
 ## Step 2
-Crack open your terminal or git-bash. Don't worry about the location, you can update Node from your home/root directory. Just like NPM, Node also has a version manager, meet NPM's cousin, NVM. Type/copy & paste this into your terminal:
+Crack open your terminal or git-bash and navigate to your home/root directory. Just like NPM, Node also has a version manager, meet NPM's cousin, NVM. Type/copy & paste this into your terminal:
 ```
 curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.4/install.sh | bash
 ```
 
 This will install NVM on your machine.
 
-Once the installation of NVM is complete, type/copy & paste:
+Once the installation of NVM is complete, type/copy & paste both of these lines into your terminal:
 ```
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"
@@ -32,11 +32,8 @@ As long as you see ```nvm``` listed below your command, you are in good shape.
 Now this is where the magic happens! Type out ```nvm install 5.3``` to install version 5.3.
 Now type out ```nvm use 5.3``` to use our newly downloaded version.
 
-Voila!
-Type this last command into the terminal to verify installation of the correct version of Node:
-```
-node -v
-```
-You sould now see ```v5.3``` in your terminal.
+Type ```node -v``` into the terminal to verify installation of the correct version of Node.
+
+You should now see ```v5.3``` in your terminal.
 
 Happy coding!
